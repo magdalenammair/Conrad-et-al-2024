@@ -1,9 +1,11 @@
 
 # Load packages
+
 library(dplyr)
 library(DHARMa)
 library(car)
 library(effects)
+library(emmeans)
 
 # Import data
 dat = read.csv("Data/raw_data_offspring.csv", stringsAsFactors = TRUE)
